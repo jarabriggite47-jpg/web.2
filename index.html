@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brigitte Jara | Biografía</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f7dfe8 0%, #3b1f2d 100%);
+            font-family: Arial, sans-serif;
+            color: #f5f5f5;
+        }
+
+        .encabezado {
+            width: 100%;
+            background: rgba(67, 34, 48, 0.72);
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 2px solid #eab7c5;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 42px;
+            letter-spacing: 2px;
+            color: #fff4f7;
+            text-transform: uppercase;
+        }
+
+        .subtitulo {
+            margin-top: 12px;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #d9c6cc;
+            text-transform: uppercase;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            padding: 35px 20px 50px;
+            flex-wrap: wrap;
+        }
+
+        .bloque {
+            width: 280px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            border-radius: 14px;
+            overflow: hidden;
+            backdrop-filter: blur(4px);
+        }
+
+        .titulo {
+            background: linear-gradient(135deg, #7d3a4f, #d9799a);
+            color: #fff6f8;
+            text-align: center;
+            padding: 14px 12px;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .contenido {
+            padding: 18px;
+        }
+
+        .biografia {
+            line-height: 1.8;
+            font-size: 15px;
+            margin: 0;
+            text-align: justify;
+            color: #fff2f5;
+        }
+
+        .foto-box {
+            width: 100%;
+            height: 220px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            background: #1d1d1d;
+        }
+
+        .foto-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .miniatura {
+            width: 100%;
+            height: 90px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .miniatura img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .audio-box {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 12px;
+            padding: 12px;
+        }
+
+        .audio-box audio {
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        .redes {
+            margin: 0;
+            line-height: 1.9;
+            color: #f5f5f5;
+        }
+
+        .redes strong {
+            color: #d7b7c1;
+        }
+    </style>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="titulo-principal">
+            <h1>Brigitte Jara</h1>
+            <div class="subtitulo">Babahoyo, Los Ríos, Ecuador</div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="bloque">
+            <div class="titulo">Biografía</div>
+            <div class="contenido">
+                <div class="foto-box" style="margin-bottom: 16px;">
+                    <img src="WhatsApp Image 2026-11-05 at 14.02.09.jpeg" alt="Foto de perfil de Brigitte Jara">
+                </div>
+                <p class="biografia">
+                    Mi nombre es Brigitte Jara, tengo 24 años y soy de Babahoyo, provincia de Los Ríos, Ecuador.
+                    Soy una joven auténtica, con carácter fuerte y con muchas ganas de salir adelante.
+                    Me gusta ser yo misma, sin aparentar lo que no soy.
+                    Mi color favorito es el negro, porque siento que me representa: elegancia, seguridad y personalidad.
+                    Es el color que elijo porque va con mi estilo y con mi forma de ver la vida.
+                    Vivo orgullosa de ser de Babahoyo, un lugar que forma parte de quien soy, de mis recuerdos y de mis sueños para el futuro.
+                </p>
+
+                <div class="galeria" style="margin-top: 18px;">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="titulo">foto</div>
+            <div class="contenido">
+                <div class="foto-box" style="height: 150px; margin-bottom: 12px;">
+                    <img src="WhatsApp Image 2026-11-05 at 14.02.23.jpeg" alt="Foto de recuerdo 1">
+                </div>
+                <div class="foto-box" style="height: 150px; margin-bottom: 12px;">
+                    <img src="WhatsApp Image 2026-11-05 at 14.02.17.jpeg" alt="Foto de recuerdo 2">
+                </div>
+                <p class="biografia">Momentos importantes que quedan en el corazón.</p>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="titulo">Romeo Santos</div>
+            <div class="contenido">
+                <div class="audio-box">
+                    <audio controls preload="metadata">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio HTML5.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="titulo">Video</div>
+            <div class="contenido">
+                <div class="audio-box">
+                    <video controls preload="metadata" style="width: 100%; border-radius: 10px; background: #000;">
+                        <source src="videojara.mp4" type="video/mp4">
+                       
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="titulo">Búscame</div>
+            <div class="contenido">
+                <p class="redes">
+                    <strong>TikTok:</strong> @brigittejara<br>
+                    <strong>Facebook:</strong> Brigitte Jara<br>
+                    <strong>Instagram:</strong> @brigittejara
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
